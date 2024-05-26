@@ -105,7 +105,9 @@ class _JadwalScreenState extends State<JadwalScreen> {
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         decoration: BoxDecoration(
-          color: isActive ? Color.fromARGB(255, 222, 250, 255) : Colors.transparent,
+          color: isActive
+              ? Color.fromARGB(255, 222, 250, 255)
+              : Colors.transparent,
           borderRadius: BorderRadius.circular(8),
         ),
         child: Text(
